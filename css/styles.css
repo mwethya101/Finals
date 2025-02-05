@@ -55,3 +55,44 @@ header .navbar a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-with:900px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 3rem;
+    }
+}
+
+@media (max-width:800px){
+    header .navbar{
+        position: absolute;
+        top:0;left:0;right:0;
+        background: pink;
+
+    }
+}
