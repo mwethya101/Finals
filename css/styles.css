@@ -50,6 +50,51 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--pink);
 }
+section{
+    padding:3rem;
+    color: black;
+}
+.home{
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../images/flow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 55rem;
+}
+.home .content h2{
+    font-size: 7rem;
+    color:#666;
+}
+.home .content span{
+    font-size: 3rem;
+    color:var(--pink) ;
+    padding: 1.5rem 0;
+    line-height: normal;
+}
+.home .content p{
+    font-size: 1.5rem;
+    color:aliceblue;
+    padding: 1rem;
+    line-height: 1.5;
+}
+.button{
+    display: inline-block;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #333;
+    color: aliceblue;
+    padding: 3rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.button:hover{
+    background: var(--pink);
+}
+
 
 
 
@@ -91,8 +136,15 @@ header .navbar a:hover{
 @media (max-width:800px){
     header .navbar{
         position: absolute;
-        top:0;left:0;right:0;
+        top:100%;left:0;right:0;
         background: pink;
-
+        border-top: .2rem solid rgba(0,0,0,.1);
+    }
+    header .navbar a {
+       margin: 1.5rem;
+       padding: 2rem;
+       background: pink;
+       border:2rem solid rgba(0,0,0,.1);
+       display: block;
     }
 }
