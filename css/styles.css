@@ -162,6 +162,15 @@ section{
     transform: scale(1.3);
     cursor: pointer;
 }
+.products .box-container .box .content{
+    padding:2rem;
+    text-align:center;
+}
+.products .box-container .box .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
 
 
 
