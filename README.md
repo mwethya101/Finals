@@ -12,4 +12,9 @@ HTML: Structuring the content and layout.
 CSS: Styling and enhancing the design for a visually appealing website.
 JavaScript: Handling interactivity and dynamic functionalities, such as form validation and cart operations.
 
-# 
+# contact information
+sasha.mwethya@student.moringaschool.com
+
+# copyright and license information
+this project is licensed under the MIT license.
+@2025 Sasha Mwethya all reserved to me. copyright (c).
