@@ -185,7 +185,16 @@ section{
 }
 /* form-styles.css */
 
-
+ body .input{
+  font-family: Arial, sans-serif;
+  background-color: aliceblue ;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
 form {
   background: #ffffff;
@@ -224,7 +233,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color:var(--pink);
 }
 
 #responseMessage {
